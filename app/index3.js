@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import {View, Text, StyleSheet } from 'react-native'
-import MyAnimeList from './MyAnimeList'
 
 
 class Index extends Component {
@@ -8,7 +7,15 @@ class Index extends Component {
     render() {
         return(
             <View style={styles.container}>
-                <MyAnimeList/>
+                <View style={styles.header}>
+                    <Text style={styles.headerText}>Header</Text>
+                </View>
+                <View style={styles.content}>
+                    <Text style={styles.contentText}>Content</Text>
+                </View>
+                <View style={styles.footer}>
+                    <Text style={styles.footerText}>Footer</Text>
+                </View>
             </View>
         )
     }
