@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {View, Text, StyleSheet } from 'react-native'
-import MyAnimeList from './MyAnimeList'
+// import MyAnimeList from './MyAnimeList'
+import MyAnimeList from './MyAnimeList1'
 
 
 class Index extends Component {
